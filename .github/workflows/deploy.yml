@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "api-gemini-ai"
-          entrypoint: "/"
-          root: "/"
+          entrypoint: "dist/main_deno.mjs"
+          root: "dist/main_deno.mjs"
